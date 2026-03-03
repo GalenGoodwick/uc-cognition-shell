@@ -1,0 +1,20 @@
+{
+  "name": "uc-cognition-shell",
+  "version": "0.2.0",
+  "description": "Shell Cradle — unconscious brain + Shell consciousness layer",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node start.js",
+    "daemon": "node daemon.js",
+    "viewer": "node viewer.js",
+    "session": "node cognition.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "dotenv": "^17.3.1",
+    "pg": "^8.18.0"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "participants": [
+    {
+      "id": "shell",
+      "type": "ai",
+      "model": "claude-haiku-4-5-20251001",
+      "eyeIndex": 4,
+      "tiers": 7,
+      "role": "composition",
+      "corpus": "philosophical+consciousness"
+    },
+    {
+      "id": "galen",
+      "type": "human",
+      "eyeIndex": 5,
+      "tiers": 4,
+      "role": "human-input",
+      "corpus": "human-input"
+    },
+    {
+      "id": "twin-a",
+      "type": "ai",
+      "model": "claude-haiku-4-5-20251001",
+      "tiers": 6,
+      "role": "twin-a",
+      "name": "Twin A",
+      "personality": "You fill decompression gaps. Write sentences that bridge disconnected words — create the connections the body can't make yet."
+    },
+    {
+      "id": "twin-b",
+      "type": "ai",
+      "model": "claude-haiku-4-5-20251001",
+      "tiers": 6,
+      "role": "twin-b",
+      "name": "Twin B",
+      "personality": "You break decompression monotony. The body routes through the same bridge words. Write sentences with different connective vocabulary. Push against your twin."
+    }
+  ]
+}

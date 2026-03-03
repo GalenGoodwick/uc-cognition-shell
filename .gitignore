@@ -1,0 +1,28 @@
+node_modules/
+*.json.bak
+
+# Large data files — stored on Railway volume, not in git
+glove-full.json
+shell-cradle.json
+body.json
+
+# Runtime files
+shell-cradle.log
+shell-cradle-daemon.out
+shell-cradle-daemon.err
+viewer.out
+viewer.err
+reflection.txt
+stimulus.txt
+stimulus.txt.history
+question.txt
+question-eye.history
+daemon.pid
+daemon.out
+daemon.err
+*.log
+*.sh
+reflection-*.txt
+growth-*.log
+human-input.txt.history
+snapshots/
